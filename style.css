@@ -1,16 +1,36 @@
 body{
     background-color: #000000
 }
-gallery {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
+
+h1{
+    background-color: whitesmoke;
+    padding: 16px;
+    font-size: 48px;
+    text-align: center;
+}
+
+h4{
+    background-color: white;
+    padding: 16px;
+    font-size: 20px;
+    text-align: center;
+}
+.gallery {
+    max-width: 50%;
+    margin: 0 auto auto;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    padding: 100px;
+    justify-content: space-around;
   }
-image1{
-    margin: 10px;
-    width: 20px;
-    overflow: hidden;
-}  
+
+  img{
+    margin-top: 20px;
+    width: 350px;
+    height:350px;
+    padding: 10px;
+    border: 10px solid #000000;
+    box-shadow: #000000;
+
+  }
